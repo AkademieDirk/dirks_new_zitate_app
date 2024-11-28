@@ -107,7 +107,8 @@ class _QuoteSwitchScreenState extends State<QuoteSwitchScreen> {
     return Scaffold(
       backgroundColor: Colors.yellow.shade200,
       appBar: AppBar(
-          backgroundColor: Colors.blue, title: const Text("Dirks Zitate App")),
+          backgroundColor: Colors.blue,
+          title: const Text("Dirks Zitate App  © api-ninjas.com")),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
